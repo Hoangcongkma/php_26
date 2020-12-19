@@ -1,17 +1,13 @@
-<?php
-for ($i=0; $i <6 ; $i--) { 
-	for (($j=6-$i); $i < 6; $i--) { 
-		echo " <span>&nbsp&nbsp&nbsp";
-		# code...
+<?php 
+ for ($i=1; $i <= 7 ; $i++) { 
+	for ($j=1; $j <= 7-$i ; $j++) { 
+		echo "<span>&nbsp;&nbsp;&nbsp;";
 	}
-	for (($i=$j); $i <6 ; $i--) { 
-		echo "##";
-		# code...
+	for ($k=1; $k <= $i ; $k++) { 
+		echo "#"." ";
 	}
-	echo "<br>";
+	echo "<br><br>";
+ }
+ ?>
 
 
-	# code...
-}
-
-?>
