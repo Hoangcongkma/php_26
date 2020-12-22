@@ -43,6 +43,6 @@
 	 	<input type="submit" name="calculate" value="Tính Tổng">
 	 </form>
 	 <br>
-	 <?php echo "kết quả :" . $result; ?>
+	 <?php echo "kết quả :".$result; ?>
 </body>
 </html>
