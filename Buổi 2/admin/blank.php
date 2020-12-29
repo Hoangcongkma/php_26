@@ -1,6 +1,5 @@
 <?php
 require_once ('header.php');
-
 ?>
 <div id="content-wrapper" class="d-flex flex-column">
 
@@ -235,10 +234,6 @@ aria-labelledby="userDropdown">
 
 </div>
 <!-- End of Content Wrapper -->
-
-
-
 <?php
 require_once ('footer.php');
-
 ?>
