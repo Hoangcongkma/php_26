@@ -21,45 +21,44 @@
   </head>
   <body>
     <div class="container">
-      <form action="post.php" method="POST" role="form">
+      <form action="add_process.php" method="POST" role="form">
         <legend>Nhập thông tin sinh viên</legend>
 
         <div class="form-group">
           <label for="">Mã Sinh Viên</label>
-          <input type="number" class="form-control" id="" placeholder="Nhập msv" name="number">
+          <input type="text" class="form-control" id="" placeholder="Nhập msv" name="id">
         </div>
 
         <div class="form-group">
           <label for="">Họ và tên</label>
-          <input type="text" class="form-control" id="" placeholder="Nhập Họ và tên" name="name">
+          <input type="text" class="form-control" id="" placeholder="Nhập Họ và tên" name="username">
         </div>  
         <div class="form-group">
           <label for="">Số Điện Thoại</label>
-          <input type="number" class="form-control" id="" placeholder="Nhập sđt" name="phone">
+          <input type="text" class="form-control" id="" placeholder="Nhập sđt" name="Number">
         </div>  
         <div class="form-group">
           <label for="">Email</label>
-          <input type="text" class="form-control" id="" placeholder="Nhập email" name="email">
-        </div> 
-        <label>Địa chỉ</label> 
-        <br>
-        <input type="text" class="form-control"  name="address" value="">
-        <br>
-        <label for="">Giới tính</label>
-        <br>
-        <input type="radio" name="gender">Nam
-        <br>
-        <input type="radio" name="gender">Nữ
-        <br>
-        <button type="submit" class="btn btn-primary">Lưu Thông Tin</button>
-    </form>
-  </div>
-</body>
+          <input type="text" class="form-control" id="" placeholder="Nhập Email" name="email">
+        </div>  
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+               Nam
+              </label>
+            </div>
+            <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+               Nữ
+              </label>
+            </div>
+            <div class="form-group">
+             <label for="">Địa chỉ</label>
+             <input type="text" class="form-control" id="" placeholder="Nhập vào Địa chỉ" name="dc">
+             </div>  
+             <button type="submit" class="btn btn-primary">Lưu Thông Tin</button>
+         </form>
+     </div>
+  </body>
 </html>
-
-
-
-
-
-
-
