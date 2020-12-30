@@ -20,4 +20,24 @@
 		'name' => 'iPhone 11 Pro Max 64GB',
 		'price' => "33990000"
 	);  
+	$phones[] = array(
+		'id' => 'SP5',
+		'name' => 'iPhone 11 Pro Max 640GB',
+		'price' => "33990000"
+	);  
+	$phones[] = array(
+		'id' => 'SP6',
+		'name' => 'iPhone 11 Pro Max 128GB',
+		'price' => "33990000"
+	);  
+	$phones[] = array(
+		'id' => 'SP7',
+		'name' => 'iPhone 12 Pro Max 128GB',
+		'price' => "50990000"
+	);  
+	$phones[] = array(
+		'id' => 'SP8',
+		'name' => 'samsung note 6',
+		'price' => "24590000"
+	);  
  ?>
