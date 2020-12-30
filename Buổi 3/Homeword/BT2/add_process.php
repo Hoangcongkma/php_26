@@ -6,10 +6,11 @@
 		'phone' => $_POST['phone'],
 		'email' => $_POST['email'],
 		'gender' => $_POST['gender'],
-		'address' => $_POST['address']
+		'address' => $_POST['address'],
 	);
 
 	
 	$_SESSION['info'][] = $user;
+	
 	header('Location: list.php');
  ?>

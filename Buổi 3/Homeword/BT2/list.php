@@ -1,7 +1,8 @@
 <?php 
 	session_start();
-	// session_destroy();
  ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,20 +26,26 @@
 			</thead>
 			<tbody>
 				<?php 
-					$i = 0;
-					foreach ($_SESSION['info'] as $value) {
-						$i++;
-				 ?>
-				 <tr>
-				 	<td><?php echo $i; ?></td>
-				 	<td><?php echo $value['code']; ?></td>
-				 	<td><?php echo $value['name']; ?></td>
-				 	<td>
-				 		<a href="detail.php?code=<?php echo $value['code']; ?>" class="btn btn-primary">Detail</a>
-				 		<a href="delete.php?code=<?php echo $value['code']; ?>" class="btn btn-danger">Delete</a>
-				 	</td>
-				 </tr>
-				<?php } ?>
+                    if (isset($_SESSION['info'])) {
+						$i = 0;
+						foreach ($_SESSION['info'] as $value) {
+							$i++;
+				?>
+						 <tr>
+						 	<td><?php echo $i; ?></td>
+						 	<td><?php echo $value['code']; ?></td>
+						 	<td><?php echo $value['name']; ?></td>
+						 	<td>
+						 		<a href="detail.php?code=<?php echo $value['code']; ?>" class="btn btn-primary">Detail</a>
+						 		<a href="delete.php?code=<?php echo $value['code']; ?>" class="btn btn-danger">Delete</a>
+						 	</td>
+						 </tr>
+						 
+				<?php 
+						}
+			
+			    	} 
+			    ?>
 			</tbody>
 		</table>
 	</div>
