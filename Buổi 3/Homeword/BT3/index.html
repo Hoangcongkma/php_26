@@ -1,0 +1,45 @@
+<?php
+session_start();
+ob_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>B3</title>
+</head>
+<body>
+	<style>
+		body{
+			width: 500px;
+			margin: 20px auto;
+		}
+		h4{
+			background-color: #28D4EE;
+			padding: 10px;
+			margin-bottom: 0px;
+			color: white;
+		}
+		div{
+			background-color: #2ED555;
+			padding: 5px;
+		}
+	</style>
+	<form action="post.php" method = "post">
+		<div>
+			<p><label for="">ID hàng</label><input type="text" name="id" value="" ></p>
+			<p><label for="">Tên hàng</label><input type="text" name="tenhang" value="" ></p>
+			<p><label for="">Số Lượng</label><input type="number" name="soluong" value="" ></p>
+			<p><label for="">Giá</label><input type="number" name="gia" value="" ></p>
+			<input type="submit" name="submit" value="MuaHang">
+
+		</div>
+
+	</form>
+</body>
+</html>
+
+<?php
+ob_end_flush(); 
+?>
