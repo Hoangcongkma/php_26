@@ -52,27 +52,21 @@ $cart = [
 				if (!isset($_SESSION['cart'])){
 					foreach ($_SESSION['cart'] as $key => $value) {
 						?>
+							<tr>
+								<td><?php echo $value['id']; ?></td>
+								<td><?php echo $value['name']; ?></td>
+								<td><?php echo $value['amount']; ?></td>
+								<td><?php echo number_format($value['price']); ?></td>
+								<td><?php echo number_format($value['price']*$value['amount']); ?></td>
+								<td><a href="delete.php?id=<?php echo $value['id']; ?>" class="btn btn-danger">Xóa</a></td>
+							</tr>
+				<?php 
 
-						<tr>
-							<td><?php echo $value['id']; ?></td>
-							<td><?php echo $value['name']; ?></td>
-							<td><?php echo $value['amount']; ?></td>
-							<td><?php echo number_format($value['price']); ?></td>
-							<td><?php echo number_format($value['price']*$value['amount']); ?></td>
-							<td><a href="delete.php?id=<?php echo $value['id']; ?>" class="btn btn-danger">Xóa</a></td>
-						</tr>
-					<?php }
-				}
+					  		}
+						}
 				
 				?>
 			</tbody>
- 			<!-- <tfoot>
- 				<tr>
- 					<th colspan="4" class="text-center">Tổng</th>
- 					<th></th>
- 					<th></th>
- 				</tr>
- 			</tfoot>	 -->
  		</table>
  	</div>
  </body>

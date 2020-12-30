@@ -45,17 +45,25 @@
         <br>
         <input type="text" class="form-control"  name="address" value="">
         <br>
-        <label for="">Giới tính</label>
+        <div class="form-row" style="margin-bottom: 1rem;">
+          <label class="col-md-12">Giới tính</label>
+          <div class=" custom-control custom-radio col-md-1" style="margin-left: 20px;">
+            <input type="radio" class="custom-control-input" id="male" name="gender" value="Nam" required>
+            <label for="male" class="custom-control-label">Nam</label>
+          </div>
+          <div class=" custom-control custom-radio col-md-1">
+            <input type="radio" class="custom-control-input" id="female" name="gender" value="Nữ" required>
+            <label for="female" class="custom-control-label">Nữ</label>
+          </div>
+          <br>
+          <div class="invalid-feedback">More example invalid feedback text</div>
+        </div>
         <br>
-        <input type="radio" name="gender">Nam
-        <br>
-        <input type="radio" name="gender">Nữ
-        <br>
-        <button type="submit" class="btn btn-primary">Lưu Thông Tin</button>
-    </form>
-  </div>
-</body>
-</html>
+        <button type="submit" class="btn btn-primary" >Lưu Thông Tin</button>
+      </form>
+    </div>
+  </body>
+  </html>
 
 
 
