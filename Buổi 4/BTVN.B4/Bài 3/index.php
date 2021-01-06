@@ -21,7 +21,7 @@
 				<label>Chọn tài liệu</label>
 				<input type="file" name="files" class="form-control">
 			</div>
-			<button type="submit" class="btn btn-primary">Upload</button>
+			<button type="submit" class="btn btn-primary" name="submit">Upload</button>
 		</form>
 	</div>
 </body>

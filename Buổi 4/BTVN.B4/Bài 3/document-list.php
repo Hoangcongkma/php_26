@@ -25,15 +25,21 @@
 				</tr>
 			</thead>
 			<tbody>
-				<?php foreach ($_SESSION['document'] as $key => $value): ?>
-				<?php $i++ ?>
-					<tr>
-						<td><?php echo $i; ?></td>
-						<td><?php echo $value['name']; ?></td>
-						<td><a href="" class="btn btn-primary">Download</a></td>
-						<td><a href="?id=<?php echo $value['name']; ?>" class="btn btn-danger">Delete</a></td>
-					</tr>
-				<?php endforeach ?>
+				<?php 
+					if (isset($_SESSION['document'])) {
+						foreach ($_SESSION['document'] as $key => $value){
+				?>
+							<?php $i++ ?>
+							<tr>
+								<td><?php echo $i; ?></td>
+								<td><?php echo $value['name']; ?></td>
+								<td><a href="" class="btn btn-primary">Download</a></td>
+								<td><a href="?id=<?php echo $value['name']; ?>" class="btn btn-danger">Delete</a></td>
+							</tr>
+				<?php 
+						}
+					}
+				?>
 			</tbody>
 		</table>
 	</div>

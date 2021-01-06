@@ -1,12 +1,12 @@
 <?php
 session_start();
+if (isset($_FILES['name'])) {
+    function file_upload($target_dir,$input_name,$max_size, $formats_allowed_array){
+        $target_file = $target_dir."/" . basename($_FILES[$input_name]["name"]);
+        $flag = true;
+        $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+        $error_arr =array();
 
-
-function file_upload($target_dir,$input_name,$max_size, $formats_allowed_array){
-    $target_file = $target_dir."/" . basename($_FILES[$input_name]["name"]);
-    $flag = true;
-    $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-    $error_arr =array();
 
     if (file_exists($target_file)) {
         $error_arr[] = "File đã tồn tại";
@@ -49,5 +49,6 @@ if(isset($_POST['submit'])){
         ];
         $_SESSION['document'][] = $document;
         header('Location: document-list.php');
+        }
     }
 }
