@@ -13,7 +13,7 @@
         $categories[]= $row;
     }
 
-    // var_dump($categories
+    // var_dump($categories)
     // foreach ($categories as $item)
  //     // echo "<pre>";
  //     //      print_r($item);
@@ -57,7 +57,7 @@
                 </td>
                 <td><?php echo $item['description']?></td>
                 <td>
-                    <a href="#" class="btn btn-primary">Detail</a>
+                    <a href="category_detail.php?id= <?php echo $item['id']?>" class="btn btn-primary">Detail</a>
                     <a href="category_edit.php?id=<?php echo $item['id'] ?>" class="btn btn-success">Edit</a>
                     <a href="category_delete.php?id=<?php echo $item['id'] ?>" class="btn btn-danger">Delete</a>
                 </td>

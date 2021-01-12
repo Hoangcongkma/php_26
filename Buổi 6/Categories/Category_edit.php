@@ -29,7 +29,7 @@
     <h3 align="center">DevMind - Education And Technology Group</h3>
     <h3 align="center">Edit Category</h3>
     <hr>
-        <form action="category_edit_process.php" method="POST" role="form" enctype="multipart/form-data">
+        <form action="category_edit_proccess.php" method="POST" role="form" enctype="multipart/form-data">
         	<input type="hidden" name="id" value="<?php echo $category['id']?>">
             <div class="form-group">
                 <label for="">Name</label>

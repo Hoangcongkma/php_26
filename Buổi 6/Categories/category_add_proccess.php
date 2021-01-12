@@ -15,7 +15,8 @@
     $data = $_POST;
 
 // Viết câu lệnh để thêm dữ liệu
-    $query = "INSERT INTO categories (name, description) VALUES ('".$data['name']."','".$data['description']."')";
+    $query = "INSERT INTO categories (name, description) 
+    VALUES ('".$data['name']."','".$data['description']."')";
 
 
 // Thực thi câu lệnh
