@@ -47,7 +47,8 @@
                 <th>Action</th>
             </thead>
 
-            <?php foreach ($categories as $item){ ?>
+            <?php 
+                foreach ($categories as $item){ ?>
             
             <tr>
                 <td><?php echo $item['id']?></td>
@@ -76,7 +77,7 @@
                 </td>
             </tr> -->
 
-        <?php } ?>
+        <?php }?>
         </table>
     </div>
 </body>
