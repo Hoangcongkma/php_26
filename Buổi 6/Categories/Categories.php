@@ -1,23 +1,6 @@
 <?php 
-    require_once "connect.php";
-
-    // var_dump($conn);
-
-    $query = "SELECT * FROM categories";
-
-    $result = $conn->query($query);
-
-    $categories = array();
-
-    while ($row = $result->fetch_assoc()) {
-        $categories[]= $row;
-    }
-
-    // var_dump($categories)
-    // foreach ($categories as $item)
- //     // echo "<pre>";
- //     //      print_r($item);
- //     // echo "</pre>";
+require_once "../helpers/query_helper.php"; 
+$categories = select('categories',['id','name','description','thumbnail']);
 ?>
 <!DOCTYPE html>
 <html>
@@ -48,21 +31,21 @@
             </thead>
 
             <?php 
-                foreach ($categories as $item){ ?>
-            
-            <tr>
-                <td><?php echo $item['id']?></td>
-                <td><?php echo $item['name']?></td>
-                <td>
-                    <img src="https://video-thumbs.mediacdn.vn//vtv/2018/10/2/0210thoi-su-19h-15384852850441347953968-a1b84_thumb3.jpg" width="100px" height="100px">
-                </td>
-                <td><?php echo $item['description']?></td>
-                <td>
-                    <a href="category_detail.php?id= <?php echo $item['id']?>" class="btn btn-primary">Detail</a>
-                    <a href="category_edit.php?id=<?php echo $item['id'] ?>" class="btn btn-success">Edit</a>
-                    <a href="category_delete.php?id=<?php echo $item['id'] ?>" class="btn btn-danger">Delete</a>
-                </td>
-            </tr>
+            foreach ($categories as $item){ ?>
+
+                <tr>
+                    <td><?php echo $item['id']?></td>
+                    <td><?php echo $item['name']?></td>
+                    <td>
+                        <img src="https://video-thumbs.mediacdn.vn//vtv/2018/10/2/0210thoi-su-19h-15384852850441347953968-a1b84_thumb3.jpg" width="100px" height="100px">
+                    </td>
+                    <td><?php echo $item['description']?></td>
+                    <td>
+                        <a href="category_detail.php?id= <?php echo $item['id']?>" class="btn btn-primary">Detail</a>
+                        <a href="category_edit.php?id=<?php echo $item['id'] ?>" class="btn btn-success">Edit</a>
+                        <a href="category_delete.php?id=<?php echo $item['id'] ?>" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
             <!-- <tr>
                 <td>2</td>
                 <td>Bóng đá</td>
@@ -78,7 +61,7 @@
             </tr> -->
 
         <?php }?>
-        </table>
-    </div>
+    </table>
+</div>
 </body>
 </html>

@@ -30,7 +30,7 @@
     <h3 align="center">Edit user</h3>
     <hr>
         <form action="user_edit_proccess.php" method="POST" role="form" enctype="multipart/form-data">
-        	<input type="hidden" name="id" value="<?php echo $category['id']?>">
+        	<input type="hidden" name="id" value="<?php echo $user['id']?>">
             <div class="form-group">
                 <label for="">Name</label>
                 <input type="text" class="form-control" id="" placeholder="" name="name" value="<?php echo $user['name']?>">
