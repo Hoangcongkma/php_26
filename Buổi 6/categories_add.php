@@ -16,13 +16,12 @@
     <h3 align="center">DevMind - Education And Technology Group</h3>
     <h3 align="center">Add New Category</h3>
     <hr>
-        <form action="category_add_proccess.php" method="POST" role="form" enctype="multipart/form-data">
-            
+        <form action="categories_add_process.php" method="POST" role="form" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="">Name</label>
                 <input type="text" class="form-control" id="" placeholder="" name="name">
             </div>
-             <div class="form-group">
+            <div class="form-group">
                 <label for="">Description</label>
                 <input type="text" class="form-control" id="" placeholder="" name="description">
             </div>
