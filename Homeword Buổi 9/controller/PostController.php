@@ -28,19 +28,19 @@ class PostController
 	public function edit($id){
 		$model = new Category();
 		$category = $model->getData($id);
-		require_once('view/category/edit.php');
+		require_once('view/post/edit.php');
 	}
 
 	public function update($data, $id){
 		$model = new Category();
 		$category = $model->editData($id, $data);
-		header('Location: ?mod=category&act=list');
+		header('Location: ?mod=post&act=list');
 	}
 
 	public function detail($id){
 		$model = new Category();
 		$category = $model->getData($id);
-		require_once('view/category/detail.php');
+		require_once('view/post/detail.php');
 	}
 }
 
