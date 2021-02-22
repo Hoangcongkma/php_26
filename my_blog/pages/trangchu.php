@@ -1,4 +1,4 @@
-<div class="TieuDeTin">
+ 1<div class="TieuDeTin">
 	<h4>Tin Mới</h4>
 </div>
 <div class="NoiDung">

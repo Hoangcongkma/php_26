@@ -44,7 +44,7 @@ if(isset ($_POST["btnthoat"])){
 <!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
-<title>Lập Trình PHP - Demo Website</title>
+<title>My Blog</title>
 <link rel="stylesheet" type="text/css" href="css/layout.css" />
 <link rel="stylesheet"  href="bootstrap/css/bootstrap.css">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
