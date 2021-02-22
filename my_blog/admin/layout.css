@@ -1,0 +1,37 @@
+/* CSS Document */
+.box-menu{
+	width:100%;
+	height:auto;
+	padding:0;
+	margin:0;
+	background-color:#FFF;
+	float:left;}
+.box-menu ul{
+	width:100%;
+	padding:5px;
+	margin:0px;
+	font-size:16px;
+	float:left;
+	width:100%;
+	height:auto;
+	}
+.box-menu li{
+	float:left;    
+	width:226px;
+	padding:5px 0px ;   
+	text-align:center;     
+	background-color:#EEF10F; 
+	cursor:pointer;    
+	color:#F90;     
+	overflow:hidden;    
+	height:auto;	
+	float:left; }
+	
+.box-menu li:hover{        
+color:black; 
+background-color:#0F3;    
+height: 30px;
+} 
+.box-trangchu-admin h1{
+	background-color:#9F9;
+	box-shadow:2px 5px #CCC;}

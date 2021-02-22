@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule "index.html" "index.php"
+
+RewriteRule "^(.*)-(.*).html$" "index.php?p=chitiettin&id=$1&TieuDe_KhongDau=$2"

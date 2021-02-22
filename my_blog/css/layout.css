@@ -1,0 +1,139 @@
+/* CSS Document */
+.body{
+	width:100%;
+	line-height:none;
+}
+#title{
+	background-color: #eee;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 11px;
+    z-index: 99;
+    position: relative;
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #CCC;
+}
+.title-text{
+	width:30%;
+	height:100%;
+	text-align:center;
+	padding-top:0.2%;
+	font-size:18px;
+	font-style:inherit;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	border-right:1px solid #CCC;
+	padding-left: 10%;
+	float:left;
+	}
+.title-text b {
+	color:#69C;
+}
+b:hover{
+	color:#F00;
+}
+.title-text2{
+	width:12%;
+	height:100%;
+	text-align:left;
+	padding-top:0.2%;
+	font-size:18px;
+	font-style:inherit;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	border-right:1px solid #CCC;
+	float:left;
+	padding-left:0.5%;
+	}
+.title-text2 a:hover{
+	color:#F00;
+	}
+.title-text3{
+	width:10%;
+	height:100%;
+	text-align:left;
+	padding-top:0.2%;
+	font-size:18px;
+	font-style:inherit;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	border-right:1px solid #CCC;
+	float:left;
+	padding-left:0.5%;
+	margin-left:15%;
+	}
+.title-text3 a:hover{
+	color:#F00;
+	}
+.title-text4 form input{
+	font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding-top:0.5%;
+}
+#Trang-header{
+	width:100%;
+	height:100px;
+	background-color:#0F6;
+}
+.page-left{
+	width:25%;
+	height:auto;
+	float:left;
+	
+}
+.Page-Content{
+	width:50%;
+	height:auto;
+	float:left;
+}
+.page-ringht{
+	width:25%;
+	height:auto;
+	float:right;
+}
+.TieuDeTin{
+	width:97%;
+	height:7%;
+	background-color:#FFF;
+	border-bottom:2px solid #CCC;
+	margin-left:1%;
+	margin-top:1%;
+	margin-right:1%;
+	float:left;
+	box-shadow: 7px 7px 3px #888888;}
+.TieuDeTin h4{
+	padding-left:5%;
+	color:#F00;
+	font-style:inherit;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	float:left;}
+.TieuDeTin-l-r{
+	width:97%;
+	height:7%;
+	background-color:#FFF;
+	border-bottom:2px solid #CCC;
+	margin-left:1%;
+	margin-top:2%;
+	margin-right:1%;
+	float:left;
+	box-shadow: 7px 7px 3px #888888;}
+.TieuDeTin-l-r h4{
+	padding-left:5%;
+	color:#F00;
+	font-style:inherit;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:18px;
+	float:left;}
+.page-footer{
+	width: 100%;
+    height: 100px;
+	background-color:#306;
+    float: left;
+	margin-bottom:1%;
+	margin-top:1%;
+}
+.form-dangnhap{
+	width: 150px;
+    height: 100%;
+    margin-top: 3px;
+    margin-left: 80%;}

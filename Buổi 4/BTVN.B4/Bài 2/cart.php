@@ -40,8 +40,7 @@
 		 						<td><?php echo $value['amount']; ?></td>
 		 						<td><?php echo number_format($value['price']); ?></td>
 		 						<td><?php 
-		 						if (isset($_SESSION['price']['amount'])) {
-		 						echo number_format($value['price']*$value['amount']); }
+		 						echo number_format($value['price']*$value['amount']); 
 		 						?></td>
 		 						<td><a href="delete.php?id=<?php echo $value['id']; ?>" class="btn btn-danger">Xóa</a></td>
 		 					</tr>
