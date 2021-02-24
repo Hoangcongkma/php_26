@@ -20,7 +20,7 @@
                                                             <li>
                                                                 <span>
                                                                                 <i class="fa fa-calendar" aria-hidden="true"></i>
-                                                                            </span>November 11, 2017</li>
+                                                                            </span>23/02/1998</li>
                                                         </ul>
                                                     </div>
                                                 </div>
