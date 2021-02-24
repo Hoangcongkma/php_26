@@ -54,7 +54,7 @@ if(isset ($_POST["btnthoat"])){
 <?php require "blocks/title.php" ?>
 <div class="container">
 	<div id="Trang-header">
-   	<img src="upload/quangcao/banner1.jpg" alt="" width="100%" height="100%" />
+   	<img src="images/cong3.jpg" alt="" width="100%" height="100%" />
     </div>
     <!--end page-header-->
     <div class="menu">

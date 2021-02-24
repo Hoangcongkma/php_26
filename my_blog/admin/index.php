@@ -1,8 +1,8 @@
 <?php 
 session_start();
-if(!isset($_SESSION["idUser"]) && $_SESSION["idGroup"]==!1){
-	header("location:../index.php");
-	}
+//if(!isset($_SESSION["idUser"]) && $_SESSION["idGroup"]==!1){
+	//header("location:../index.php");
+	//}
 	
 require "../lib/dbCon.php";
 require "../lib/quantri.php";

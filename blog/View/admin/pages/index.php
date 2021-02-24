@@ -1,9 +1,9 @@
 <?php
 	session_start(); /*đăng ký phiên làm việc*/
 	ob_start();
-	require '../../Config/config.php';
-	require '../../Lib/function.php';
-	require '../../Model/Database.php';
+	require '../../../Config/config.php';
+	require '../../../Lib/function.php';
+	require __DIR__ . '../../../Model/Database.php';
 	$db = new Database();
 
 	/**

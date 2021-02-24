@@ -4,4 +4,6 @@
   <b>Password</b><br>
   <input type="Password" name="txtPa" id="txtPa" value="123456789" required>
   <input type="submit" name="btnlogin" id="btnlogin" value="Đăng nhập">
+  <a href="blocks/formdangky.php" >Đăng ký</a>
+
 </div>

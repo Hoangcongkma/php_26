@@ -49,6 +49,9 @@
     <br> 
     <br> 
     <button class="btn btn-lg btn-primary btn-block" type="submit"> Đăng ký</button> 
+   
+
+
    </form> 
   </div> 
  </div>

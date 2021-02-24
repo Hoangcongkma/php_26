@@ -1,4 +1,5 @@
 <div class="TieuDeTin">
+<div class="TieuDeTin">
 	<h4>Trang tìm kiếm</h4>
 </div>
 <div class="NoiDung">
