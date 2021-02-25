@@ -1,0 +1,3 @@
+B1. Giai nen file vua tai. va copy tat ca cac file trong thu muc ajax_app vao htdocs tren Xampp hoac www tren Wamp,...
+B2. Import file ajax.sql trong thu muc database_file vao phpmyadmin
+B3. Mo trinh duyet va go localhost de chay.

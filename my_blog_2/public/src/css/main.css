@@ -1,0 +1,10 @@
+.modal-header, .modal-footer {
+	background: black;
+}
+.modal-header {
+	color: white;
+	text-align: center;
+}
+#err_log {
+	margin-bottom: 25px;
+}
