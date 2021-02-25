@@ -15,7 +15,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>My blog &mdash; Free Fully Responsive HTML5 Bootstrap Template by FREEHTML5.co</title>
+	<title>My blog &mdash; php_26</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -76,6 +76,7 @@
 			<h3 class="heading">About Me</h3>
 			<h2>Hoàng Mạnh Công</h2>
 			<p>Sinh viên Học Viện Kỹ Thuật Mật Mã </p>
+			<p>SĐT : 0359756737</p>
 			<ul class="fh5co-social">
 				<li><a href="https://www.facebook.com/hoangcongCnow.vn/"><i class="icon-facebook"></i></a></li>
 				
@@ -84,9 +85,10 @@
 
 		<div class="fh5co-menu">
 			<div class="fh5co-box">
-				<h3 class="heading">Categories</h3>
+				<h3 class="heading">Welcome to my blog</h3>
 				<ul>
 					<li><a href="index.php?type=frontend&mod=home&act=index">Home</a></li>
+
 
 					<?php 
 					if (isset($arrS)) {

@@ -35,7 +35,7 @@
 					<div class="row">
 						<div class="col-lg-12 cp-r animate-box">
 									<?php $tag =  $posts['tag']; foreach(explode(',', $tag) as $key => $value){;?>
-										<span style="background-color: #e4e4f9; padding: 5px; cursor: pointer;color: #f7c873">#<?php echo $value; ?></span>
+										<span style="background-color: #e4e4f9; padding: 5px; cursor: pointer;color: #f7c873">Trang chủ<?php echo $value; ?></span>
 									<?php }?>	
 						</div>	
 					</div>
@@ -45,8 +45,8 @@
 
 		<div class="row fh5co-post-entry single-entry">
 			<article style="text-align: left;" class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
-				<h3>LEAVE A REPLY</h3>
-				<p>Your email address will not be published. Required fields are marked *</p>
+				<h3>Hãy để lại ý kiến của bạn về sản phẩm</h3>
+				<p>Điền thông tin của bạn ở đay để chúng tôi có thể hỗ trợ tốt nhất.</p>
 				<form action="index.php?type=backend&mod=comment&act=store" method="POST">
 					<input type="hidden" name="id" value="NULL">
 					<input type="hidden" name="parent_id" value="NULL">
@@ -57,7 +57,7 @@
 					echo date("Y-m-d h:i:sa"); ?>">
 					<input type="hidden" name="post_id" value="<?php echo $_GET['id']?>">
 					<input type="hidden" name="like_count" value="NULL">
-					<button type="submit" style="margin-top: 30px" class="btn btn-primary">SUBMIT COMMENT</button>
+					<button type="submit" style="margin-top: 30px" class="btn btn-primary">Gửi bình luận</button>
 				</form>
 			</article>
 		</div>
