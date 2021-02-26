@@ -1,1 +1,0 @@
-<h2 class="error">An error occurred. Please come back <a href="/">here</a>.</h2>
