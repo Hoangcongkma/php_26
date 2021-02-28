@@ -62,24 +62,24 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <strong>John Smith</strong>
+                                    <strong>Hoàng Mạnh Công</strong>
                                     <span class="pull-right text-muted">
                                         <em>Yesterday</em>
                                     </span>
                                 </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                                <div>Hoàng Mạnh Công - Sinh viên Học Viện Kỹ Thuật Mật Mã</div>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
                                 <div>
-                                    <strong>John Smith</strong>
+                                    <strong>Trần Kiều Oanh</strong>
                                     <span class="pull-right text-muted">
                                         <em>Yesterday</em>
                                     </span>
                                 </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                                <div>Trần kiều Oanh - Đại Học Y Hà Nội</div>
                             </a>
                         </li>
                         <li class="divider"></li>
@@ -201,7 +201,7 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                    <i class="fa fa-twitter fa-fw"></i> 300 New Followers
                                     <span class="pull-right text-muted small">12 minutes ago</span>
                                 </div>
                             </a>
@@ -271,94 +271,94 @@
                                 <img src="../controller/images/cong1.jpg" class="img-circle" width="100px" height="100px">
                                 <h4 class="text-info bg-info" style="padding:15px; width: 100%;">Hoàng Công Kma - Admin</h4>
                             </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li>
-                            <a href="?action=admin"><i class="fa fa-dashboard fa-fw"></i>Tổng quan</a>
-                        </li>
-                        <li>
-                            <a href="?action=adproduct"><i class="fa fa-table fa-fw"></i>Sản phẩm</a>
-                        </li>
-                        <li>
-                            <a href="?action=admember"><i class="fa fa-users fa-fw"></i>Thành viên</a>
-                        </li> 
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Thống kê<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#">Flot Charts</a>
-                                </li>
-                                <li>
-                                    <a href="#">Morris.js Charts</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+                    <li>
+                        <a href="?action=admin"><i class="fa fa-dashboard fa-fw"></i>Tổng quan</a>
+                    </li>
+                    <li>
+                        <a href="?action=adproduct"><i class="fa fa-table fa-fw"></i>Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="?action=admember"><i class="fa fa-users fa-fw"></i>Thành viên</a>
+                    </li> 
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Thống kê<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Flot Charts</a>
+                            </li>
+                            <li>
+                                <a href="#">Morris.js Charts</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    
+                </ul>
             </div>
-            <!-- /.navbar-static-side -->
-        </nav>
-        <section id="page-wrapper">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h3 class="alert alert-info" >Sản phẩm đang bán</h3>
-                    <a href="?action=adminaddproduct" class="btn btn-primary pull-right">Thêm sản phẩm mới</a>
-                </div>
-                <div class="col-xs-12 table-responsive">
-                    <table class="table table-hover">
-                      <thead>
-                        <tr>
-                          <th>STT</th>
-                          <th>Mã sản phẩm</th>
-                          <th>Tên sản phẩm</th>
-                          <th>Thao tác</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <?php
-                            $ad = new m_product();
-                            $admin = $ad->get_product();
-                            $stt = 1;
-                            while ($set = $admin->fetch()) {
-                        ?>
-                        <tr>
-                          <th scope="row"><?php echo $stt++; ?></th>
-                          <td><?php echo $set[0]; ?></td>
-                          <td><?php echo $set[1] ?></td>
-                          <td>
-                              <a href="?action=editproduct&id=<?php echo $set[0]; ?>" class="btn btn-success">Sửa</a>
-                              <a href="?action=deleteproduct&id=<?php echo $set[0]; ?>" class="btn btn-danger">Xóa</a>
-                          </td>
-                        </tr>
-                        <?php } ?>
-                      </tbody>
-                    </table>
-                </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+    <section id="page-wrapper">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="alert alert-info" >Sản phẩm đang bán</h3>
+                <a href="?action=adminaddproduct" class="btn btn-primary pull-right">Thêm sản phẩm mới</a>
             </div>
-        </section>
-    </div>
-    <!-- /#wrapper -->
+            <div class="col-xs-12 table-responsive">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>STT</th>
+                      <th>Mã sản phẩm</th>
+                      <th>Tên sản phẩm</th>
+                      <th>Thao tác</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <?php
+                $ad = new m_product();
+                $admin = $ad->get_product();
+                $stt = 1;
+                while ($set = $admin->fetch()) {
+                    ?>
+                    <tr>
+                      <th scope="row"><?php echo $stt++; ?></th>
+                      <td><?php echo $set[0]; ?></td>
+                      <td><?php echo $set[1] ?></td>
+                      <td>
+                          <a href="?action=editproduct&id=<?php echo $set[0]; ?>" class="btn btn-success">Sửa</a>
+                          <a href="?action=deleteproduct&id=<?php echo $set[0]; ?>" class="btn btn-danger">Xóa</a>
+                      </td>
+                  </tr>
+              <?php } ?>
+          </tbody>
+      </table>
+  </div>
+</div>
+</section>
+</div>
+<!-- /#wrapper -->
 
-    <!-- jQuery -->
-    <script src="../controller/js/jquery.min.js"></script>
+<!-- jQuery -->
+<script src="../controller/js/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../controller/bootstrap/js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../controller/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../controller/js/metisMenu.min.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../controller/js/metisMenu.min.js"></script>
 
-    <!-- Morris Charts JavaScript -->
-    <script src="../controller/js/raphael.min.js"></script>
-    <script src="../controller/js/morris.min.js"></script>
-    <script src="../controller/js/morris-data.js"></script>
+<!-- Morris Charts JavaScript -->
+<script src="../controller/js/raphael.min.js"></script>
+<script src="../controller/js/morris.min.js"></script>
+<script src="../controller/js/morris-data.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="../controller/js/sb-admin-2.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="../controller/js/sb-admin-2.js"></script>
 
 </body>
 

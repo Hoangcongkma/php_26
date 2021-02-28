@@ -86,12 +86,12 @@
                         <li>
                             <a href="#">
                                 <div>
-                                    <strong>John Smith</strong>
+                                    <strong>Hoàng Mạnh Công</strong>
                                     <span class="pull-right text-muted">
                                         <em>Yesterday</em>
                                     </span>
                                 </div>
-                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                                <div>Sản phẩm của chúng tôi là tốt nhất</div>
                             </a>
                         </li>
                         <li class="divider"></li>
@@ -537,7 +537,7 @@
                     <!-- /.panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <i class="fa fa-clock-o fa-fw"></i> Responsive Timeline
+                            <i class="fa fa-clock-o fa-fw"></i> Các lĩnh vực kinh doanh chính .
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -547,12 +547,12 @@
                                     </div>
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
+                                            <h4 class="timeline-title">Đại lý độc quyền của apple Việt Nam</h4>
                                             <p><small class="text-muted"><i class="fa fa-clock-o"></i> 11 hours ago via Twitter</small>
                                             </p>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas suscipit facere rem dicta, debitis.</p>
+                                            <p>Cung cấp các loại iphone , ipad , macbook chính hãng  . Các loại linh kiện thay thế độc quyền của hãng duy nhất trên toàn Việ Nam.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -561,11 +561,11 @@
                                     </div>
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
-                                            <h4 class="timeline-title">Lorem ipsum dolor</h4>
+                                            <h4 class="timeline-title">Phụ Kiện Điện thoại di động.</h4>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem quibusdam, tenetur commodi provident cumque magni voluptatem libero, quis rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia repellendus.</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium maiores odit qui est tempora eos, nostrum provident explicabo dignissimos debitis vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.</p>
+                                            <p>Vua Bán Buôn các loại phụ kiện điện thoại .</p>
+                                            <p>Chúng Tôi cam kết phụ kiện điện thoại ở dây là rẻ nhất , tốt nhất phù hợp nhất đối với thị trường khách hàng Việt Nam.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -784,86 +784,86 @@
                                         <div class="header">
                                             <small class=" text-muted">
                                                 <i class="fa fa-clock-o fa-fw"></i> 13 mins ago</small>
-                                            <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                                <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                            </div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                            </p>
                                         </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
-                                        </p>
+                                    </li>
+                                    <li class="left clearfix">
+                                        <span class="chat-img pull-left">
+                                            <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
+                                        </span>
+                                        <div class="chat-body clearfix">
+                                            <div class="header">
+                                                <strong class="primary-font">Jack Sparrow</strong>
+                                                <small class="pull-right text-muted">
+                                                    <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small>
+                                                </div>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                                </p>
+                                            </div>
+                                        </li>
+                                        <li class="right clearfix">
+                                            <span class="chat-img pull-right">
+                                                <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
+                                            </span>
+                                            <div class="chat-body clearfix">
+                                                <div class="header">
+                                                    <small class=" text-muted">
+                                                        <i class="fa fa-clock-o fa-fw"></i> 15 mins ago</small>
+                                                        <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                                                    </div>
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
-                                </li>
-                                <li class="left clearfix">
-                                    <span class="chat-img pull-left">
-                                        <img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle" />
-                                    </span>
-                                    <div class="chat-body clearfix">
-                                        <div class="header">
-                                            <strong class="primary-font">Jack Sparrow</strong>
-                                            <small class="pull-right text-muted">
-                                                <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small>
+                                    <!-- /.panel-body -->
+                                    <div class="panel-footer">
+                                        <div class="input-group">
+                                            <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-warning btn-sm" id="btn-chat">
+                                                    Send
+                                                </button>
+                                            </span>
                                         </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
-                                        </p>
                                     </div>
-                                </li>
-                                <li class="right clearfix">
-                                    <span class="chat-img pull-right">
-                                        <img src="http://placehold.it/50/FA6F57/fff" alt="User Avatar" class="img-circle" />
-                                    </span>
-                                    <div class="chat-body clearfix">
-                                        <div class="header">
-                                            <small class=" text-muted">
-                                                <i class="fa fa-clock-o fa-fw"></i> 15 mins ago</small>
-                                            <strong class="pull-right primary-font">Bhaumik Patel</strong>
-                                        </div>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- /.panel-body -->
-                        <div class="panel-footer">
-                            <div class="input-group">
-                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." />
-                                <span class="input-group-btn">
-                                    <button class="btn btn-warning btn-sm" id="btn-chat">
-                                        Send
-                                    </button>
-                                </span>
+                                    <!-- /.panel-footer -->
+                                </div>
+                                <!-- /.panel .chat-panel -->
                             </div>
+                            <!-- /.col-lg-4 -->
                         </div>
-                        <!-- /.panel-footer -->
+                        <!-- /.row -->
                     </div>
-                    <!-- /.panel .chat-panel -->
+                    <!-- /#page-wrapper -->
+
                 </div>
-                <!-- /.col-lg-4 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /#page-wrapper -->
+                <!-- /#wrapper -->
 
-    </div>
-    <!-- /#wrapper -->
+                <!-- jQuery -->
+                <script src="../controller/js/jquery.min.js"></script>
 
-    <!-- jQuery -->
-    <script src="../controller/js/jquery.min.js"></script>
+                <!-- Bootstrap Core JavaScript -->
+                <script src="../controller/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../controller/bootstrap/js/bootstrap.min.js"></script>
+                <!-- Metis Menu Plugin JavaScript -->
+                <script src="../controller/js/metisMenu.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../controller/js/metisMenu.min.js"></script>
+                <!-- Morris Charts JavaScript -->
+                <script src="../controller/js/raphael.min.js"></script>
+                <script src="../controller/js/morris.min.js"></script>
+                <script src="../controller/js/morris-data.js"></script>
 
-    <!-- Morris Charts JavaScript -->
-    <script src="../controller/js/raphael.min.js"></script>
-    <script src="../controller/js/morris.min.js"></script>
-    <script src="../controller/js/morris-data.js"></script>
+                <!-- Custom Theme JavaScript -->
+                <script src="../controller/js/sb-admin-2.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="../controller/js/sb-admin-2.js"></script>
+            </body>
 
-</body>
-
-</html>
+            </html>

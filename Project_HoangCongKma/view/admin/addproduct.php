@@ -271,115 +271,115 @@
                                 <img src="../controller/images/cong1.jpg" class="img-circle" width="100px" height="100px">
                                 <h4 class="text-info bg-info" style="padding:15px; width: 100%;">Hoàng Công kma - Admin</h4>
                             </span>
-                            </div>
-                            <!-- /input-group -->
-                        </li>
-                        <li>
-                            <a href="?action=admin"><i class="fa fa-dashboard fa-fw"></i>Tổng quan</a>
-                        </li>
-                        <li>
-                            <a href="?action=adproduct"><i class="fa fa-table fa-fw"></i>Sản phẩm</a>
-                        </li>
-                        <li>
-                            <a href="?action=admember"><i class="fa fa-users fa-fw"></i>Thành viên</a>
-                        </li>   
-                        <li>
-                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Thống kê<span class="fa arrow"></span></a>
-                            <ul class="nav nav-second-level">
-                                <li>
-                                    <a href="#">Flot Charts</a>
-                                </li>
-                                <li>
-                                    <a href="#">Morris.js Charts</a>
-                                </li>
-                            </ul>
-                            <!-- /.nav-second-level -->
-                        </li>
-                        
-                    </ul>
-                </div>
-                <!-- /.sidebar-collapse -->
+                        </div>
+                        <!-- /input-group -->
+                    </li>
+                    <li>
+                        <a href="?action=admin"><i class="fa fa-dashboard fa-fw"></i>Tổng quan</a>
+                    </li>
+                    <li>
+                        <a href="?action=adproduct"><i class="fa fa-table fa-fw"></i>Sản phẩm</a>
+                    </li>
+                    <li>
+                        <a href="?action=admember"><i class="fa fa-users fa-fw"></i>Thành viên</a>
+                    </li>   
+                    <li>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Thống kê<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Flot Charts</a>
+                            </li>
+                            <li>
+                                <a href="#">Morris.js Charts</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    
+                </ul>
             </div>
-            <!-- /.navbar-static-side -->
-        </nav>
-    </div>
-    <!-- /#wrapper -->
-    <section id="page-wrapper">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h3 class="alert alert-info" >Thêm sản phẩm</h3>
-                </div>
-                <div class="col-xs-12">
-                    <form action="?action=adminadd" method="post" enctype='multipart/form-data'>
-                      <div class="form-row">
-                        <div class="form-group col-md-6">
-                          <label for="inputEmail4" class="col-form-label">Tên sản phẩm</label>
-                          <input type="text" class="form-control" name="name">
-                        </div>
-                        <div class="form-group col-md-6">
-                          <label for="inputPassword4" class="col-form-label">Giá</label>
-                          <input type="number" class="form-control" name="price">
-                        </div>
-                      </div>
-                      <div class="form-row col-md-12" style="padding-left: 0;">
-                        <div class="form-group col-md-3">
-                            <label for="inputAddress" class="col-form-label">Hình ảnh</label>
-                            <input type="file" class="form-control" name="img" required>
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="inputAddress" class="col-form-label">Hãng</label>
-                            <select class="form-control" name="brand">
-                                <?php
-                                    $x = new m_product();
-                                    $brand = $x->get_brand();
-                                    while ($set = $brand->fetch()) {
-                                ?>
-                                <option value="<?php echo $set[0]; ?>"><?php echo $set[1]; ?></option>
-                                <?php } ?>
-                            </select>
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="form-group col-md-3">
-                          <label for="inputCity" class="col-form-label">Screen</label>
-                          <input type="text" class="form-control" name="screen">
-                        </div>
-                        <div class="form-group col-md-3">
-                          <label for="inputState" class="col-form-label">Camera</label>
-                          <input type="text" class="form-control" name="camera">
-                        </div>
-                        <div class="form-group col-md-3">
-                          <label for="inputZip" class="col-form-label">Pin</label>
-                          <input type="text" class="form-control" name="pin">
-                        </div>
-                        <div class="form-group col-md-3">
-                          <label for="inputZip" class="col-form-label">Hệ điều hành</label>
-                          <input type="text" class="form-control" name="os">
-                        </div>
-                      </div>
-                      <div class="form-group">
-                      </div>
-                      <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
-                    </form>
-                </div>
+            <!-- /.sidebar-collapse -->
+        </div>
+        <!-- /.navbar-static-side -->
+    </nav>
+</div>
+<!-- /#wrapper -->
+<section id="page-wrapper">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3 class="alert alert-info" >Thêm sản phẩm</h3>
+        </div>
+        <div class="col-xs-12">
+            <form action="?action=adminadd" method="post" enctype='multipart/form-data'>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4" class="col-form-label">Tên sản phẩm</label>
+                  <input type="text" class="form-control" name="name">
+              </div>
+              <div class="form-group col-md-6">
+                  <label for="inputPassword4" class="col-form-label">Giá</label>
+                  <input type="number" class="form-control" name="price">
+              </div>
+          </div>
+          <div class="form-row col-md-12" style="padding-left: 0;">
+            <div class="form-group col-md-3">
+                <label for="inputAddress" class="col-form-label">Hình ảnh</label>
+                <input type="file" class="form-control" name="img" required>
             </div>
-        </section>
-    <!-- jQuery -->
-    <script src="../controller/js/jquery.min.js"></script>
+            <div class="form-group col-md-3">
+                <label for="inputAddress" class="col-form-label">Hãng</label>
+                <select class="form-control" name="brand">
+                    <?php
+                    $x = new m_product();
+                    $brand = $x->get_brand();
+                    while ($set = $brand->fetch()) {
+                        ?>
+                        <option value="<?php echo $set[0]; ?>"><?php echo $set[1]; ?></option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-3">
+              <label for="inputCity" class="col-form-label">Screen</label>
+              <input type="text" class="form-control" name="screen">
+          </div>
+          <div class="form-group col-md-3">
+              <label for="inputState" class="col-form-label">Camera</label>
+              <input type="text" class="form-control" name="camera">
+          </div>
+          <div class="form-group col-md-3">
+              <label for="inputZip" class="col-form-label">Pin</label>
+              <input type="text" class="form-control" name="pin">
+          </div>
+          <div class="form-group col-md-3">
+              <label for="inputZip" class="col-form-label">Hệ điều hành</label>
+              <input type="text" class="form-control" name="os">
+          </div>
+      </div>
+      <div class="form-group">
+      </div>
+      <button type="submit" class="btn btn-primary">Thêm sản phẩm</button>
+  </form>
+</div>
+</div>
+</section>
+<!-- jQuery -->
+<script src="../controller/js/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../controller/bootstrap/js/bootstrap.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="../controller/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="../controller/js/metisMenu.min.js"></script>
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../controller/js/metisMenu.min.js"></script>
 
-    <!-- Morris Charts JavaScript -->
-    <script src="../controller/js/raphael.min.js"></script>
-    <script src="../controller/js/morris.min.js"></script>
-    <script src="../controller/js/morris-data.js"></script>
+<!-- Morris Charts JavaScript -->
+<script src="../controller/js/raphael.min.js"></script>
+<script src="../controller/js/morris.min.js"></script>
+<script src="../controller/js/morris-data.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="../controller/js/sb-admin-2.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="../controller/js/sb-admin-2.js"></script>
 
 </body>
 

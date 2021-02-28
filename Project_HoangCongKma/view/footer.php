@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-sm-4 wow zoomIn">
 				<img src="images/logo2.png">
 				<p>Chất lượng - Đảm bảo - Phục vụ</p>
-				<p>Giới thiệu về ViTech</p>
+				<p>Giới thiệu về My Blog</p>
 				<p>Chính sách đổi trả</p>
 				<p>Giao hàng và thanh toán</p>
 			</div>
