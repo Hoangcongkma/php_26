@@ -35,7 +35,7 @@
               <div class="field-wrap">
                 <input type="password"required autocomplete="off" name="pass" placeholder="Mật khẩu" />
               </div>
-              <button type="submit" name="submit" class="button button-block"/>Get Started</button>
+              <button type="submit" name="submit" class="button button-block"/>Đăng Ký</button>
             </form>
           </div><!-- tab-content -->
         </div> <!-- /form -->
